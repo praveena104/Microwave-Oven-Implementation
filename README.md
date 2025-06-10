@@ -40,6 +40,8 @@ MENU_SCREEN:
     4.Start
 MICRO_MODE:
 
+if key 1 pressed, it enters to micro mode.
+
 1.power = 900W
 
 2.After 1sec delay,set_timer screen need to display
@@ -57,7 +59,7 @@ MICRO_MODE:
 		1.if *--> current blinking field should become 00
 		2.if#--->enter into timer screen
 
-3.timer screen
+4.display time (timer screen)
 	Pattern:
 	TIME:00:00//MM:SS
 	4.START/RESUME
@@ -69,12 +71,18 @@ the time we set starts decrementing once it reaches 00:00, task done displayed
 		key 5 it should pause
 		key 6 timer stops
 
-4.Task done:
+5.Task done:
 	once timer reaches 00,TASK DONE!!Enjoy your meal should be displayed
 
 GRILL_MODE:
-if key == 2 pressed it enters to grill_mode,like previous mode(micro_mode),in grill_mode also it should display set_time and then timer screen need to display
+
+if key 2 pressed, it enters to grill_mode. Like previous mode(micro_mode),in grill_mode also it should display set_time and then timer screen need to display
+
+CONVECTION_MODE:
+
+if key 3 pressed, it enters to convection mode. Temperature is set in this mode and timer set and starts to run like previous mode
 
 START_MODE:
-30sec timer is run in this mode
+
+if key 4 pressed, it enters to start mode. 30sec timer is run in this mode
 
