@@ -9,7 +9,7 @@ This project simulates a **microwave oven** using the **PIC16F877A microcontroll
 
 All functionalities are simulated and tested using PICSIM Lab and MPLAB IDE.
 
-Technologies Used
+Technologies Used:
 
   **MPLAB IDE**
  
@@ -19,7 +19,7 @@ Technologies Used
   
   **Network Communication Tools**
 
-Peripherals Interfaced
+Peripherals Interfaced:
 
   **CLCD (Character LCD)**
   
