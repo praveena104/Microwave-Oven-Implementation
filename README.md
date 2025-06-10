@@ -12,21 +12,30 @@ All functionalities are simulated and tested using PICSIM Lab and MPLAB IDE.
 Technologies Used
 
   **MPLAB IDE**
+ 
   **PICSIM Lab** (for simulation)
+  
   **Embedded C**
+  
   **Network Communication Tools**
 
 Peripherals Interfaced
 
   **CLCD (Character LCD)**
+  
   **Matrix Keypad**
+  
   **EEPROM**
+  
   **UART**
+  
   **Interrupts**
+  
   **Buzzer**
+  
   **Fan**
 
-  power on/reset--->POWER_ON
+power on/reset--->POWER_ON
 
 POWER_ON:
 
