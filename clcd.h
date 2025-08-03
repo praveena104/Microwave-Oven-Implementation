@@ -20,6 +20,7 @@
 
 #define HI                          1
 #define LOW                         0
+#define DEGREE                      0xDF  
 
 #define LINE1(x)                    (0x80 + x)
 #define LINE2(x)                    (0xC0 + x)
@@ -32,12 +33,13 @@
 #define CLEAR_DISP_SCREEN           0x01
 #define DISP_ON_AND_CURSOR_OFF      0x0C
 #define BAR                         0xFF
+#define DISP_ON_AND_CURSOR_ON       0x0F
 
 void init_clcd(void);
 void clcd_putch(const char data, unsigned char addr);
 void clcd_print(const char *str, unsigned char addr);
 
- void clcd_write(unsigned char byte, unsigned char mode);
+void clcd_write(unsigned char byte, unsigned char mode);
 
 #endif	/* CLCD_H */
 
