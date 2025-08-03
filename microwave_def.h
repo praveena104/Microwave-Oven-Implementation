@@ -10,18 +10,15 @@
 
 /*Add Function Declarations*/
 void clear_screen(void);
-void power_on(void);
+unsigned char power_on_screen(void);
 void menu_screen(void);
-void micro_mode(void); 
-void grill_mode(void);
-void convection_mode(void); 
-unsigned int set_time(void);
-void display_time(void);
-void start_timer(void);
-void pause_timer(void);
-void stop_timer(void);
-void display_task_done(void);
-void set_temperature(void);
+unsigned char micro_mode(unsigned char key, unsigned char reset_flag);
+unsigned char display_time(unsigned char key, unsigned char reset_flag);
+unsigned char operation_mode(unsigned char key, unsigned char reset_flag);
+unsigned char convection_mode(unsigned char key, unsigned char reset_flag);
+unsigned char pre_heat_mode(unsigned char reset_flag);
+unsigned char start_mode(unsigned char reset_flag);
 
 #endif	/* MICROWAVE_DEF_H */
+
 
