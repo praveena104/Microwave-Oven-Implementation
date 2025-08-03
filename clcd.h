@@ -43,3 +43,4 @@ void clcd_write(unsigned char byte, unsigned char mode);
 
 #endif	/* CLCD_H */
 
+
