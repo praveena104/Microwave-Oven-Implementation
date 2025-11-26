@@ -95,3 +95,4 @@ START_MODE:
 
 if key 4 pressed, it enters to start mode. 30sec timer is run in this mode
 
+
